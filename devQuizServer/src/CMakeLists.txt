@@ -8,7 +8,7 @@ set(devQuizServer_SRCS
 # Create the application
 add_library(devQuizServer SHARED ${devQuizServer_SRCS})
 
-# Link to Cutelyst
+# Link to Cutelyst and Qt
 target_link_libraries(devQuizServer
     Cutelyst::Core
     Qt5::Core
